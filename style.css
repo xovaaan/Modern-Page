@@ -90,16 +90,24 @@ html,body{
 }
 
 .hero-left .elements{
+    position: relative;
     height: 7vw;
     overflow: hidden;
 }
 
 .hero-left .elements h1{
+    top: 100%;
+    left: 0;
+    position: absolute;
     line-height: .9;
     font-family: "kajiro";
     color: white;
     font-size: 8vw;
     font-weight: 100;
+}
+
+.hero-left .elements h1:nth-child(1){
+    top: 0;
 }
 
 
